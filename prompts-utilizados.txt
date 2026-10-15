@@ -1,0 +1,16 @@
+PROMPT 1:
+
+Quero inserir algumas animações no projeto, vamos fazer isso com a biblioteca GSAP, Scrolltrigger e SplitText, coloque o ScrollSmoother também para uma rolagem suave. A seção Hero vai ficar pinnada enquanto algumas animações vão acontecendo, o plano de fundo da div .stage agora sera como se fosse um video (são varios frames na verdade), que vai sendo reproduzido de forma suave econforme rolamos a pagina, os frames estão em @assets/frames/ . E também quero que aconteça uma animação de troca de textos, o texto "É um NOVO DIA..." ele vai trocar para o texto: "Mas a pressão de ver seus antigos amigos seguirem em frente sem ele começa a desencadear uma mudança em Peter, uma
+transformação que ele talvez não consiga controlar.", e depois troca dnv para o texto: "Só que essa mudança pode ser justamente a única coisa capaz de deter uma nova e chocante ameaça à cidade e às pessoas que ele ama: um vilão poderoso que ninguém consegue ver.". Essa troca de textos vai acontecer mudando a opacidade, o primeiro perde opacidade, o segundo ganha, depois perde e entra o terceiro, so que quero q vc faça isso letra por letra com o SpliText, e as letras não vão sumir em ordem, mas de forma aleatoria. Quero que essas duas animações, troca de imagens e de texto, aconteçam simultaneamente, tendo mesmo inicio e final
+
+
+
+PROMPT 2:
+
+Perfeito! Depois dessas animações da hero, a hero continuara fixa e preciso q uma div com a cor de fundo preta apareça do centro, ela vai ter altura 0 e largura 0, mas dentro dela vai ter um vídeo, que desde o inicio ja vai ter largura total da pagina, então essa div vai apenas revelando ele como uma mascara. Conforme essa div vai crescendo em largura, quando pegar no conteudo da hero, o conteudo da div .movie, a imagem q fica na esquerda e a div dos 3 textos q fica na direita, vai jogar essas duas divs para o lado, como se estivesse empurrando elas, o que vai dar um efeito legal. A div da imagem é empurrada para esquerda e a dos textos para direita. O vídeo ja vai estar sendo reproduzido de forma muda e um leve overlay preto, e quando ficar com largura 100% vai aparecer o simbolo de play nele, quando clicarmos no play o video volta do inicio e é reproduzido normal, crie um player simples para colcoar nesse video. Esse vídeo é o @assets/trailer.mp4
+
+
+
+PROMPT 3:
+
+Na parte do elenco, quero q vc crie uma animação agora pinnando a seção Elenco, as imagens vão sendo trocadas mostrando cada respectivo ator, e os nomes na esquerda vão sendo trocados na div .cast__person, o nome e o papel q o ator faz é o subtitulo. Abaixo na parte da esquerda nos temos a aranhazinha e os nomes na div cast__picker, isso vai ser como uma barra de progresso, quando o primeiro ator estiver ativo a aranha vai estar no inicio e o primeiro nome mais visivel q os outros, e assim vai preenchendo a barra e a aranha descendo e os nomes sendo ativos e os outros desativados. Coloque nomes genericos q eu troco depois, as imagens estão na pasta @assets/elenco/ . As imagens vão sendo trocas de cima para baixo, elas ja estarão pegando largura total e altura total, so que a div pai de cada uma delas vai ganhando altura e as revelando, como uma mascara
